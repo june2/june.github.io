@@ -3,7 +3,7 @@
   "experience": [
     {
       "date": "2016.07 ~ 현재",
-      "current": false,
+      "duration": "",
       "company": "프리랜서",
       "position": "",
       "duty": [
@@ -13,15 +13,28 @@
       ],
       "projects": [
         "Askstory 구인구직 플랫폼 구축",
-        "T-money 시와버스예매 플랫폼 유지보수",
-        "스타트업 인디펀 플랫폼 구축",
+        "T-money 시와버스예매 플랫폼 유지보수",        
         "APT-lab 플랫폼 구축",
         "스타트업 위클리 플랫폼 구축"
       ]
     },
     {
       "date": "2015.07 ~ 2016.06",
-      "current": false,
+      "duration": "1년",
+      "company": "인디펀",
+      "position": "Startup / Co-founder",
+      "duty": [
+        "시스템 분석 및 프로그램 개발",
+        "유지보수 및 시스템 장애 대응"
+      ],
+      "projects": [
+        "문화 정보 제공 서비스앱 개발",
+        "Youtube 연동 음원 스트리밍 서비스앱 개발"
+      ]
+    },
+    {
+      "date": "2015.07 ~ 2016.06",
+      "duration": "1년",
       "company": "Blackboard",
       "position": "한국지사 개발팀 / 대리",
       "duty": [
@@ -36,7 +49,7 @@
     },
     {
       "date": "2013.04 ~ 2015.06",
-      "current": false,
+      "duration": "2년 3개월",
       "company": "(주) Neograph",
       "position": "ITC 사업부 개발팀 / 주임",
       "duty": [
@@ -53,15 +66,65 @@
   "project": [
     {
       "date": "2013.04 ~ 2015.06",
-      "name": "알고뽑자 (대선 사이트)",
-      "desc": [
+      "name": "알고뽑자",
+      "desc": "19대 대선 플랫폼",
+      "link": "https://play.google.com/store/apps/details?id=com.MusicChannel.ios",
+      "note": [
         "이관작업"
       ],
-      "skills": [
-        "Node.js",
-        "java",
-        "php"
-      ]
+      "skill": {
+        "backend": ["Node.js"],
+        "frontend": ["Angular.js"],
+        "etc": ["Azure", "cloud flare"]
+      }
+    },
+    {
+      "date": "2013.04 ~ 2015.06",
+      "name": "서울시립대학교",
+      "link": "http://www.uos.ac.kr/main.do",      
+      "desc": "홈페이지 프레임워크 교체 및 유지보수",
+      "note": [
+        "플랫폼 유지보수 및 서비스 장애 대응",
+        "struct2 => spring, oracle => tibero 프레임워크 이관 작업"
+      ],
+      "skill": {
+        "backend": ["Java", "Struts2", "Spring","Tibero", "Apache", "Tomcat"],
+        "frontend": ["Jsp", "Jquery"],
+        "etc": ["Window Server", "svn"]
+      }
+    },
+    {
+      "date": "2013.04 ~ 2015.06",
+      "name": "법무부 법사랑 사이버랜드",
+      "link": "http://cyberland.lawnorder.go.kr/main.do",
+      "desc": "홈페이지 디자인 개편 및 기능 개선",
+      "note": [
+        "설문조사 모듈 개발",
+        "Youtube 동영상 콘텐츠 관리 CMS 개발",
+        "Youtube 동영상 조회 통계 UI화면 개발"
+      ],
+      "skill": {
+        "backend": ["Java", "Spring", "Tomcat", "Apache", "Mysql"],
+        "frontend": ["Jsp", "Jquery"],
+        "etc": ["Linux", "svn"]
+      }
+    }
+  ],
+  "study": [
+    {
+      "date": "2013.04 ~ 2015.06",
+      "name": "알고뽑자",
+      "link": "http://www.hani.co.kr/arti/politics/polibar/788334.html",
+      "desc": "19대 대선 플랫폼",
+      "note": [
+        "언론 보도",
+        "가독성 제공"
+      ],
+      "skill": {
+        "backend": ["Node.js"],
+        "frontend": ["Angular.js"],
+        "etc": ["Azure", "cloud flare"]
+      }
     }
   ]
 }

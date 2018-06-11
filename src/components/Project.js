@@ -15,19 +15,44 @@ class Project extends Component {
                   <Col className="col-md-12">
                     <h4 className="gray">{data.date}<br /></h4>
                   </Col>
+                  {/* <Col className="col-md-12 col-3 text-center text-md-right"
+                    style={data.link ? {} : { display: 'none' }}>
+                    <span className="badge badge-primary">{data.link}</span>
+                  </Col> */}
                 </Row>
               </Col>
               <Col className="col-md-9 col-12">
-                <h4>{data.name}</h4>                
+                <h4>
+                  <a href={data.link} target="_blank">
+                    {data.name}&nbsp;<i style={data.link ? {} : { display: 'none' }} className="fa fa-link" aria-hidden="true"></i>
+                  </a>&nbsp;&nbsp;<i className="note">{data.desc}</i>
+                </h4>
                 <ul>
-                  {data.desc.map((desc, i) => {
-                    return (<li key={i}>{desc}</li>)
+                  {data.note.map((note, i) => {
+                    return (<li key={i}>{note}</li>)
                   })}
                   <li><strong>Skills</strong></li>
                   <div>
-                    {data.skills.map((skill, i) => {
-                      return (<span key={i} className="badge badge-secondary">{skill}</span>)
-                    })}
+                    <ul>
+                      <li style={data.skill.backend.length !== 0 ? {} : { display: 'none' }}>
+                        <span><strong>Back-end : </strong></span>
+                        {data.skill.backend.map((skill, i) => {
+                          return (<span key={i} className="badge badge-secondary mr-1">{skill}</span>)
+                        })}
+                      </li>
+                      <li style={data.skill.frontend.length !== 0 ? {} : { display: 'none' }}>
+                        <span><strong>Front-end : </strong></span>
+                        {data.skill.frontend.map((skill, i) => {
+                          return (<span key={i} className="badge badge-secondary mr-1">{skill}</span>)
+                        })}
+                      </li>
+                      <li style={data.skill.etc.length !== 0 ? {} : { display: 'none' }}>
+                        <span><strong>Etc : </strong></span>
+                        {data.skill.etc.map((skill, i) => {
+                          return (<span key={i} className="badge badge-secondary mr-1">{skill}</span>)
+                        })}
+                      </li>
+                    </ul>
                   </div>
                 </ul>
               </Col>

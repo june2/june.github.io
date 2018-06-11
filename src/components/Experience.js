@@ -16,8 +16,8 @@ class Experience extends Component {
                     <h4 className="gray">{data.date}<br /></h4>
                   </Col>
                   <Col className="col-md-12 col-3 text-center text-md-right"
-                    style={data.current ? {} : { display: 'none' }}>
-                    <span className="badge badge-primary">재직 중</span>
+                    style={data.duration ? {} : { display: 'none' }}>
+                    <span className="badge badge-primary">{data.duration}</span>
                   </Col>
                 </Row>
               </Col>
