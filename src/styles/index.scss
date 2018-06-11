@@ -3,12 +3,19 @@
 @import 'bootstrap/scss/bootstrap';
 
 body {
-  margin: 0% 10% 5% 10%;  
+  margin: 0;
   padding: 0;
+  padding-bottom: 5%;
   font-family: 'EB Garamond', serif;
   // font-family: 'Nanum Gothic', sans-serif;
 }
+a {
+  color: black;
+}
 
+.fa-link{
+  font-size: 10px;
+}
 .hr-sect {
 	display: flex;
 	flex-basis: 100%;
@@ -27,4 +34,9 @@ body {
 	font-size: 0px;
 	line-height: 0px;
 	margin: 0px 16px;
+}
+
+.note {
+  color: gray;
+  font-size: 15px;
 }
