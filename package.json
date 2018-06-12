@@ -53,7 +53,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src/styles --include-path ./node_modules src/styles/ -o src/styles --watch --recursive",
     "start-js": "node scripts/start.js",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-css && node scripts/build.js && mv build docs",
+    "build": "rm -rf docs && npm run build-css && node scripts/build.js && mv build docs",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
