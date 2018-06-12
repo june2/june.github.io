@@ -9,7 +9,7 @@ class Experience extends Component {
         <div className="hr-sect">Work Experience</div>
         {experience.map((data, i) => {
           return (
-            <Row key={i} className="mb-5">
+            <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">
                 <Row>
                   <Col className="col-md-12">

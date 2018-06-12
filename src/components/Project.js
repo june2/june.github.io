@@ -9,11 +9,16 @@ class Project extends Component {
         <div className="hr-sect">Notable Projects</div>
         {project.map((data, i) => {
           return (
-            <Row key={i} className="mb-5">
+            <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">
                 <Row>
                   <Col className="col-md-12">
-                    <h4 className="gray">{data.date}<br /></h4>
+                    <h4>
+                      <a href={data.link} target="_blank">
+                        {data.name}&nbsp;<i style={data.link ? {} : { display: 'none' }} className="fa fa-link" aria-hidden="true"></i>
+                      </a>
+                    </h4>
+                    {/* <i className="note">{data.desc}</i> */}
                   </Col>
                   {/* <Col className="col-md-12 col-3 text-center text-md-right"
                     style={data.link ? {} : { display: 'none' }}>
@@ -22,11 +27,11 @@ class Project extends Component {
                 </Row>
               </Col>
               <Col className="col-md-9 col-12">
-                <h4>
+                {/* <h4>
                   <a href={data.link} target="_blank">
                     {data.name}&nbsp;<i style={data.link ? {} : { display: 'none' }} className="fa fa-link" aria-hidden="true"></i>
                   </a>&nbsp;&nbsp;<i className="note">{data.desc}</i>
-                </h4>
+                </h4> */}
                 <ul>
                   {data.note.map((note, i) => {
                     return (<li key={i}>{note}</li>)
