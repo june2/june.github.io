@@ -6300,8 +6300,7 @@ a {
   align-items: center;
   color: rgba(0, 0, 0, 0.35);
   font-size: 35px;
-  margin: 8px 0px;
-  padding-top: 50px; }
+  margin: 8px 0px; }
 
 .hr-sect::after {
   content: "";

@@ -9,7 +9,7 @@ class Project extends Component {
         <div className="hr-sect">Notable Projects</div>
         {project.map((data, i) => {
           return (
-            <Row key={i}>
+            <Row key={i} className="mb-5">
               <Col className="col-md-3 col-12 text-md-right">
                 <Row>
                   <Col className="col-md-12">

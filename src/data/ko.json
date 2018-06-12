@@ -66,11 +66,25 @@
   "project": [
     {
       "date": "2013.04 ~ 2015.06",
-      "name": "알고뽑자",
-      "desc": "19대 대선 플랫폼",
-      "link": "https://play.google.com/store/apps/details?id=com.MusicChannel.ios",
+      "name": "와이미",
+      "desc": "인공지능 구인 구직 플랫폼",
+      "link": "http://startupweekly.net/news",
       "note": [
-        "이관작업"
+        "Restful API 설계"
+      ],
+      "skill": {
+        "backend": ["Node.js"],
+        "frontend": ["Angular.js"],
+        "etc": ["Azure", "cloud flare"]
+      }
+    },
+    {
+      "date": "2013.04 ~ 2015.06",
+      "name": "스타트업 위클리",
+      "desc": "스타트업 관련 정보 제공 서비스 플랫폼 제작",
+      "link": "http://startupweekly.net/news",
+      "note": [
+        "데이터 모델링"
       ],
       "skill": {
         "backend": ["Node.js"],
