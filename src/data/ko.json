@@ -68,11 +68,11 @@
       "date": "",
       "name": "와이미",
       "desc": "머신러닝 기반 구인구직 매칭 서비스 플랫폼",
-      "link": "",
+      "link": "http://whyme.co.kr",
       "note": [        
         "머신러닝 기반 구인구직 매칭 서비스 플랫폼 설계구축",
         "Restful API 설계 및 서버 구축",
-        "CMS / 사용자 페이지 제작",        
+        "Angular기반, CMS / 사용자 페이지 제작",        
         "Socket.io 활용 채팅 서버 구축",
         "FCM 활용 클라이언트 메시지 push 구현",
         "꼬꼬마 한국어 형태소 분석기 라이브러리 활용, PDF 한글 텍스트 분석",
@@ -130,6 +130,21 @@
         "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
         "frontend": ["ionic framework", "cordova"],
         "etc": ["testflight", "linux"]
+      }
+    },
+    { 
+      "date": "",
+      "name": "블랙보드 온라인 출석 모듈",
+      "desc": "",
+      "link": "https://github.com/blackboard/spring-b2-example",
+      "note": [
+        "JWT활용, 타사 LSM auth 인증 및 api 연동",        
+        "SSO 모듈 연동"        
+      ],
+      "skill": {
+        "backend": ["Java", "Spring", "gradle", "JWT"],
+        "frontend": ["Jsp"],
+        "etc": []
       }
     },
     {
