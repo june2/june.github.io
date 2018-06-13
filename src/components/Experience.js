@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
+import { Link } from 'react-scroll'
 import { experience } from '../data/ko';
 
 class Experience extends Component {
@@ -31,7 +32,14 @@ class Experience extends Component {
                   <div>
                     <ul>
                       {data.projects.map((project, i) => {
-                        return (<li key={i}>{project}</li>)
+                        return (<li key={i}>
+                          {project.desc}&nbsp;&nbsp;
+                          <Link activeClass="active"
+                            style={project.key !== "0" ? {} : { display: 'none' }}
+                            className="fa fa-link"
+                            to={project.key}
+                            spy={true} smooth={true} duration={500} ></Link>
+                        </li>)
                       })}
                     </ul>
                   </div>

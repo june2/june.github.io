@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import { project } from '../data/ko';
+import { Element } from 'react-scroll'
 
 class Project extends Component {
   render() {
@@ -12,10 +13,11 @@ class Project extends Component {
             <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">
                 <Row>
-                  <Col className="col-md-12">
+                  <Col className="col-md-12">                    
+                    <Element name={data.key}></Element>
                     <h4>
                       <a href={data.link} target="_blank">
-                        {data.name}&nbsp;<i style={data.link ? {} : { display: 'none' }} className="fa fa-link" aria-hidden="true"></i>
+                        {data.name}&nbsp;<i style={data.link ? {} : { display: 'none' }} className="fa fa-external-link-alt" aria-hidden="true"></i>
                       </a>
                     </h4>
                     {/* <i className="note">{data.desc}</i> */}

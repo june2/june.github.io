@@ -24,8 +24,8 @@ class Profile extends Component {
             <h4 className="gray">Github</h4>
           </Col>
           <Col className="col-12 col-md-9">
-            <Row><Col className="mt-1">
-              <a href="https://github.com/june2" target="_blank">https://github.com/june2&nbsp;&nbsp;<i className="fa fa-link" aria-hidden="true"></i></a>
+            <Row><Col className="mt-1">            
+              <a href="https://github.com/june2" target="_blank">https://github.com/june2&nbsp;&nbsp;<i className="fa fa-external-link-alt" aria-hidden="true"></i></a>
             </Col></Row>
           </Col>
           <Col className="col-12 col-md-3 text-md-right">
@@ -33,7 +33,7 @@ class Profile extends Component {
           </Col>
           <Col className="col-12 col-md-9">
             <Row><Col className="mt-1">
-              <a href="https://www.linkedin.com/in/june4536" target="_blank">https://www.linkedin.com/in/june4536&nbsp;&nbsp;<i className="fa fa-link" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/june4536" target="_blank">https://www.linkedin.com/in/june4536&nbsp;&nbsp;<i className="fa fa-external-link-alt" aria-hidden="true"></i></a>
             </Col></Row>
           </Col>
         </Row>

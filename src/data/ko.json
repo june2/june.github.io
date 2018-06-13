@@ -12,10 +12,10 @@
         "시스템 구축 및 개발 산출물 전달"
       ],
       "projects": [
-        "Askstory 머신러닝 기반 구인구직 플랫폼 구축",
-        "T-money 시와버스예매 플랫폼 유지보수",        
-        "APT-lab 아파트 관리비 비교 플랫폼 구축",
-        "스타트업 위클리 플랫폼 구축"
+        {"desc":"Askstory 머신러닝 기반 구인구직 플랫폼 구축", "key":"whyme"},
+        {"desc":"T-money 시와버스예매 플랫폼 유지보수", "key":"tmoney"},
+        {"desc":"APT-lab 아파트 관리비 비교 플랫폼 구축", "key":"0"},
+        {"desc":"스타트업 위클리 플랫폼 구축", "key":"weekly"}        
       ]
     },
     {
@@ -28,8 +28,8 @@
         "유지보수 및 시스템 장애 대응"
       ],
       "projects": [
-        "문화 정보 제공 서비스앱 개발",
-        "Youtube 연동 음원 스트리밍 서비스앱 개발"
+        {"desc":"문화 정보 제공 서비스앱 개발", "key":"0"},
+        {"desc":"Youtube 연동 음원 스트리밍 서비스앱 개발", "key":"mmc"}        
       ]
     },
     {
@@ -42,9 +42,9 @@
         "유지보수 및 시스템 장애 대응"
       ],
       "projects": [
-        "인하대 출석 모듈 구축",
-        "고려대 beacon기반 출석모듈 구축",
-        "카톨릭대 설문/통계 모듈 구축"
+        {"desc":"인하대 출석 모듈 구축", "key":"blackboard"},
+        {"desc":"고려대 beacon기반 출석모듈 구축", "key":"0"},
+        {"desc":"카톨릭대 설문/통계 모듈 구축", "key":"0"}        
       ]
     },
     {
@@ -57,14 +57,15 @@
         "유지보수 및 시스템 장애 대응"
       ],
       "projects": [
-        "서울 시립대 프레임워크 이관 및 유지보수",
-        "법사랑 사이버랜드 플랫폼 구축",
-        "선거관리위원회 플랫폼 구축"
+        {"desc":"서울 시립대 프레임워크 이관 및 유지보수", "key":"uos"},
+        {"desc":"법사랑 사이버랜드 플랫폼 구축", "key":"law"},
+        {"desc":"선거관리위원회 플랫폼 구축", "key":"0"}
       ]
     }
   ],
   "project": [
     {
+      "key": "whyme",
       "date": "",
       "name": "와이미",
       "desc": "머신러닝 기반 구인구직 매칭 서비스 플랫폼",
@@ -85,6 +86,7 @@
       }
     },
     { 
+      "key": "tmoney",
       "date": "",
       "name": "T-money 시외버스",
       "desc": "",
@@ -101,7 +103,8 @@
       }
     },
     { 
-      "date": "",
+      "key": "",
+      "date": "weekly",
       "name": "스타트업 위클리",
       "desc": "스타트업 관련 정보 제공 서비스 플랫폼 제작",
       "link": "http://startupweekly.net/news",
@@ -117,6 +120,7 @@
       }
     },
     { 
+      "key": "mmc",
       "date": "",
       "name": "My Music Channel",
       "desc": "",
@@ -133,6 +137,7 @@
       }
     },
     { 
+      "key": "blackboard",
       "date": "",
       "name": "블랙보드 출석 모듈",
       "desc": "",
@@ -148,6 +153,7 @@
       }
     },
     {
+      "key": "uos",
       "date": "",
       "name": "서울시립대학교",
       "link": "http://www.uos.ac.kr/main.do",      
@@ -163,6 +169,7 @@
       }
     },
     {
+      "key": "law",
       "date": "",
       "name": "법무부 법사랑 사이버랜드",
       "link": "http://cyberland.lawnorder.go.kr/main.do",
@@ -212,7 +219,22 @@
         "frontend": ["React.js", "ARc", "E-chart"],
         "etc": ["AWS", "ELB", "S3", "cloud front", "Poloniex API"]
       }
-    },
+    }, 
+    {
+      "date": "",
+      "name": "Tensor flow",
+      "link": "https://github.com/june2/tensorflow",
+      "desc": "Tensor flow 기반 텍스트 문장 카테고리 분류",
+      "note": [
+        "Tensor flow 개발환경 구축",
+        "Tensor flow 기반 텍스트 문장 카테고리 분류 알고리즘 스터디"        
+      ],
+      "skill": {
+        "backend": ["Node.js"],
+        "frontend": ["Angular.js"],
+        "etc": ["Azure", "cloud flare"]
+      }
+    },    
     {
       "date": "",
       "name": "알고뽑자",
@@ -229,21 +251,6 @@
         "frontend": ["Angular.js", "GA"],
         "etc": ["Azure", "cloud flare"]
       }
-    },
-    {
-      "date": "",
-      "name": "Tensor flow",
-      "link": "https://github.com/june2/tensorflow",
-      "desc": "Tensor flow 기반 텍스트 문장 카테고리 분류",
-      "note": [
-        "Tensor flow 개발환경 구축",
-        "Tensor flow 기반 텍스트 문장 카테고리 분류 알고리즘 스터디"        
-      ],
-      "skill": {
-        "backend": ["Node.js"],
-        "frontend": ["Angular.js"],
-        "etc": ["Azure", "cloud flare"]
-      }
-    }    
+    }
   ]
 }
