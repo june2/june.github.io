@@ -274,7 +274,7 @@
         "company": "Freelancer",
         "position": "",
         "duty": [
-          "고객 요구사항 수집 및 분석",
+          "Gathering the requirements from the Client ",
           "화면 설계 및 개발 문서 작성",
           "시스템 구축 및 개발 산출물 전달"
         ],
@@ -282,7 +282,7 @@
           {"desc":"Askstory 머신러닝 기반 구인구직 플랫폼 구축", "key":"whyme"},
           {"desc":"T-money 시와버스예매 플랫폼 유지보수", "key":"tmoney"},
           {"desc":"APT-lab 아파트 관리비 비교 플랫폼 구축", "key":"0"},
-          {"desc":"스타트업 위클리 플랫폼 구축", "key":"weekly"}        
+          {"desc":"Build startup weekly web platform", "key":"weekly"}        
         ]
       },
       {
@@ -302,8 +302,8 @@
       {
         "date": "2015.07 ~ 2016.06",
         "duration": "1 yr",
-        "company": "Blackboard",
-        "position": "한국지사 개발팀 / 대리",
+        "company": "Blackboard Inc.",
+        "position": "Korea branch / Software developer",
         "duty": [
           "시스템 분석 및 프로그램 개발",
           "유지보수 및 시스템 장애 대응"
@@ -316,9 +316,9 @@
       },
       {
         "date": "2013.04 ~ 2015.06",
-        "duration": "2yrs 3개월",
-        "company": "(주) Neograph",
-        "position": "ITC 사업부 개발팀 / 주임",
+        "duration": "2 yrs 3 mos",
+        "company": "Neogragh CO., LTD",
+        "position": "ITC 사업부 개발팀 / Software developer",
         "duty": [
           "시스템 분석 및 프로그램 개발",
           "유지보수 및 시스템 장애 대응"
@@ -334,7 +334,7 @@
       {
         "key": "whyme",
         "date": "",
-        "name": "와이미",
+        "name": "whyme",
         "desc": "머신러닝 기반 구인구직 매칭 서비스 플랫폼",
         "link": "http://whyme.co.kr",
         "note": [        
@@ -355,7 +355,7 @@
       { 
         "key": "tmoney",
         "date": "",
-        "name": "T-money 시외버스",
+        "name": "T-money bus",
         "desc": "",
         "link": "https://txbus.t-money.co.kr/main.do",
         "note": [
@@ -372,13 +372,13 @@
       { 
         "key": "",
         "date": "weekly",
-        "name": "스타트업 위클리",
+        "name": "Startup weekly",
         "desc": "스타트업 관련 정보 제공 서비스 플랫폼 제작",
         "link": "http://startupweekly.net/news",
         "note": [
           "스타트업 관련 정보 제공 서비스 플랫폼 제작",
           "Restful API 설계 및 서버 구축", 
-          "DB 모델링"
+          "Database modeling"
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
@@ -406,7 +406,7 @@
       { 
         "key": "blackboard",
         "date": "",
-        "name": "블랙보드 출석 모듈",
+        "name": "Online attendance module",
         "desc": "",
         "link": "https://github.com/blackboard/spring-b2-example",
         "note": [
@@ -422,7 +422,7 @@
       {
         "key": "uos",
         "date": "",
-        "name": "서울시립대학교",
+        "name": "University of seoul",
         "link": "http://www.uos.ac.kr/main.do",      
         "desc": "홈페이지 프레임워크 교체 및 유지보수",
         "note": [
@@ -438,7 +438,7 @@
       {
         "key": "law",
         "date": "",
-        "name": "법무부 법사랑 사이버랜드",
+        "name": "Cyberland",
         "link": "http://cyberland.lawnorder.go.kr/main.do",
         "desc": "홈페이지 디자인 개편 및 기능 개선",
         "note": [
@@ -457,13 +457,13 @@
     "study": [
       {
         "date": "",
-        "name": "블록체인 스터디",
+        "name": "blockchain study",
         "link": "https://github.com/june2/eth-tutorial",
-        "desc": "블록체인 스터디 커뮤니티 활동",
+        "desc": "",
         "note": [
           "블록체인 스터디 커뮤니티 활동 중",
-          "이더리움 private network 구축",
-          "이더리움 Dapp tutorial / Toy project 제작"
+          "Build ethereum private network",
+          "Developing ethereum Dapp tutorial / Toy project"
         ],
         "skill": {    
           "backend": [],
@@ -473,11 +473,11 @@
       },
       {
         "date": "",
-        "name": "코인 모의 거래소",
+        "name": "Cryptocurrency Trading Simulator",
         "link": "http://13.76.166.152/",
         "desc": "",
         "note": [
-          "오픈소스 활용",
+          "Using open source",
           "AWS 환경 인프라 구축",
           "Poloniex API 활용 캔들 데이터 실시간 반영"
         ],
@@ -504,7 +504,7 @@
       },    
       {
         "date": "",
-        "name": "알고뽑자",
+        "name": "Algovote",
         "link": "http://www.hani.co.kr/arti/politics/polibar/788334.html",
         "desc": "",
         "note": [
