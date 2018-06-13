@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
 import { Link } from 'react-scroll'
-import { experience } from '../data/ko';
 
 class Experience extends Component {
   render() {
     return (
       <div>
         <div className="hr-sect">Work Experience</div>
-        {experience.map((data, i) => {
+        {this.props.experience.map((data, i) => {
           return (
             <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">

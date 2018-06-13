@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import { project } from '../data/ko';
 import { Element } from 'react-scroll'
 
 class Project extends Component {
@@ -8,7 +7,7 @@ class Project extends Component {
     return (
       <div>
         <div className="hr-sect">Notable Projects</div>
-        {project.map((data, i) => {
+        {this.props.project.map((data, i) => {
           return (
             <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">

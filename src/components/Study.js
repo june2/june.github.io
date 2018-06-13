@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'reactstrap';
-import { study } from '../data/ko';
 
 class Study extends Component {
   render() {
     return (
       <div>
         <div className="hr-sect">Side Projects / Study</div>
-        {study.map((data, i) => {
+        {this.props.study.map((data, i) => {
           return (
             <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">
