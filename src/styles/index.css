@@ -6291,6 +6291,10 @@ body {
 a {
   color: black; }
 
+.profile {
+  list-style: none;
+  margin-left: -16px; }
+
 .fa-external-link-alt,
 .fa-link {
   font-size: 10px; }
