@@ -342,10 +342,10 @@
         "link": "http://whyme.co.kr",
         "note": [        
           "Building seeking job website using machine learning.",
-          "Implementation of RESTful web service.",
+          "Implementing restful webservices.",
           "Building SPA using Angular.",        
           "Building chat server using Socket.io.",
-          "Implementation of message push module using FCM.",
+          "Implementing message push module using FCM.",
           "Analizing korean text file for data mining.",
           "Building data mining algorithms using Naive Bayesian classification."        
         ],
@@ -363,8 +363,8 @@
         "link": "https://txbus.t-money.co.kr/main.do",
         "note": [
           "Managing system and solve troubleshooting problem.",
-          "Implementation of payment API.",         
-          "Implementation of i18n."
+          "Implementing the payment API.",         
+          "Implementing the i18n module."
         ],
         "skill": {
           "backend": ["Java", "Spring", "maven", "ibatis"],
@@ -380,8 +380,8 @@
         "link": "http://startupweekly.net/news",
         "note": [
           "Building startup new website.",
-          "Implementation of RESTful web service.", 
-          "Database modeling."
+          "Implementing restful webservices.", 
+          "Modeling database."
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
@@ -398,7 +398,7 @@
         "note": [
           "Youtube music streaming app.",
           "Converting youtube video to mp3.",
-          "Implementation of RESTful web service."
+          "Implementing restful webservices."
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
@@ -413,8 +413,8 @@
         "desc": "",
         "link": "https://github.com/blackboard/spring-b2-example",
         "note": [
-          "Implementation of auth moudule using JWT.",        
-          "Implementation of SSO moudle."        
+          "Implementing the auth moudule using JWT.",        
+          "Implementing SSO moudle."        
         ],
         "skill": {
           "backend": ["Java", "Spring", "gradle", "JWT"],
@@ -446,7 +446,7 @@
         "desc": "홈페이지 디자인 개편 및 기능 개선",
         "note": [
           "Developing applications, components and functionality to existing systems.",
-          "ImpImplementation of survey/statistics moudle.",
+          "Implementing a survey/statistics moudle.",
           "Developing CMS page.",
           "Developing statistics of Youtube view count page."
         ],
@@ -465,7 +465,7 @@
         "desc": "",
         "note": [
           "Studying blockchain in offline community.",
-          "Build ethereum private network.",
+          "Building ethereum private network.",
           "Developing ethereum Dapp tutorial / Toy project."
         ],
         "skill": {    
@@ -513,7 +513,7 @@
         "note": [
           "19th korea presidential election website.",                  
           "Planning website and designing UI/UX.",
-          "ImpImplementation of oauth. (facebook, google, kakao, naver)"
+          "Implementing the oauth module. (facebook, google, kakao, naver)"          
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "redis", "mongodb", "nginx", "pm2"],
