@@ -277,13 +277,13 @@
           "Understanding the Domain knowledge.",
           "Gathering the requirements from the client.",
           "Analyzing, designing, writing technical reports/documenting.",          
-          "Building infra system and delivery products"
+          "Building infra system and delivery products."
         ],
         "projects": [
-          {"desc":"Building seeking job website using machine learning", "key":"whyme"},
-          {"desc":"Managing T-money bus web platform", "key":"tmoney"},
-          {"desc":"Building APT-lab web platform", "key":"0"},
-          {"desc":"Building startup weekly web platform", "key":"weekly"}        
+          {"desc":"Building seeking job website using machine learning.", "key":"whyme"},
+          {"desc":"Managing T-money bus web platform.", "key":"tmoney"},
+          {"desc":"Building APT-lab web platform.", "key":"0"},
+          {"desc":"Building startup weekly web platform.", "key":"weekly"}        
         ]
       },
       {
@@ -294,7 +294,7 @@
         "duty": [
           "Developing new applications and components.",
           "Investigating alternate configurations & implementing better solutions.",
-          "Managing system and solve troubleshooting problem"
+          "Managing system and solve troubleshooting problem."
         ],
         "projects": [
           {"desc":"Information of indie culture service app", "key":"0"},
@@ -338,16 +338,16 @@
         "key": "whyme",
         "date": "",
         "name": "whyme",
-        "desc": "Building seeking job website using machine learning",
+        "desc": "Building seeking job website using machine learning.",
         "link": "http://whyme.co.kr",
         "note": [        
-          "Building seeking job website using machine learning",
-          "Implementation of RESTful web service",
-          "Building SPA using Angular",        
-          "Building chat server using Socket.io",
-          "Implementation of message push module using FCM",
+          "Building seeking job website using machine learning.",
+          "Implementation of RESTful web service.",
+          "Building SPA using Angular.",        
+          "Building chat server using Socket.io.",
+          "Implementation of message push module using FCM.",
           "Analizing korean text file for data mining.",
-          "Building data mining algorithms using Naive Bayesian classification"        
+          "Building data mining algorithms using Naive Bayesian classification."        
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "socket.io", "redis", "mongodb", "mysql", "pm2", "nginx"],
@@ -363,8 +363,8 @@
         "link": "https://txbus.t-money.co.kr/main.do",
         "note": [
           "Managing system and solve troubleshooting problem.",
-          "Implementation of payment API",         
-          "Implementation of i18n"
+          "Implementation of payment API.",         
+          "Implementation of i18n."
         ],
         "skill": {
           "backend": ["Java", "Spring", "maven", "ibatis"],
@@ -379,9 +379,9 @@
         "desc": "스타트업 관련 정보 제공 서비스 플랫폼 제작",
         "link": "http://startupweekly.net/news",
         "note": [
-          "Building startup new website",
-          "Implementation of RESTful web service", 
-          "Database modeling"
+          "Building startup new website.",
+          "Implementation of RESTful web service.", 
+          "Database modeling."
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
@@ -398,7 +398,7 @@
         "note": [
           "Youtube music streaming app.",
           "Converting youtube video to mp3.",
-          "Implementation of RESTful web service,"
+          "Implementation of RESTful web service."
         ],
         "skill": {
           "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
@@ -413,7 +413,7 @@
         "desc": "",
         "link": "https://github.com/blackboard/spring-b2-example",
         "note": [
-          "Implementation of auth moudule using JWT",        
+          "Implementation of auth moudule using JWT.",        
           "Implementation of SSO moudle."        
         ],
         "skill": {
@@ -447,8 +447,8 @@
         "note": [
           "Developing applications, components and functionality to existing systems.",
           "ImpImplementation of survey/statistics moudle.",
-          "Developing CMS page",
-          "Developing statistics of Youtube view count page"
+          "Developing CMS page.",
+          "Developing statistics of Youtube view count page."
         ],
         "skill": {
           "backend": ["Java", "Spring", "Tomcat", "Apache", "Mysql"],
@@ -464,9 +464,9 @@
         "link": "https://github.com/june2/eth-tutorial",
         "desc": "",
         "note": [
-          "Studying blockchain in offline community",
-          "Build ethereum private network",
-          "Developing ethereum Dapp tutorial / Toy project"
+          "Studying blockchain in offline community.",
+          "Build ethereum private network.",
+          "Developing ethereum Dapp tutorial / Toy project."
         ],
         "skill": {    
           "backend": [],
@@ -480,9 +480,9 @@
         "link": "http://13.76.166.152/",
         "desc": "",
         "note": [
-          "Using open source",
-          "Building infra in AWS",
-          "Mirroring candel data in realtime using Poloniex API"
+          "Using open source.",
+          "Building infra in AWS.",
+          "Mirroring candel data in realtime using Poloniex API."
         ],
         "skill": {
           "backend": ["Node.js", "Koa", "redis", "mongodb", "websocket"],
@@ -496,8 +496,8 @@
         "link": "https://github.com/june2/tensorflow",
         "desc": "Tensor flow 기반 텍스트 문장 카테고리 분류",
         "note": [
-          "Building development environment",
-          "Studying text classification algorithms"        
+          "Building development environment.",
+          "Studying text classification algorithms."        
         ],
         "skill": {
           "backend": ["Node.js"],
@@ -511,7 +511,7 @@
         "link": "http://www.hani.co.kr/arti/politics/polibar/788334.html",
         "desc": "",
         "note": [
-          "19th korea presidential election website",                  
+          "19th korea presidential election website.",                  
           "Planning website and designing UI/UX.",
           "ImpImplementation of oauth. (facebook, google, kakao, naver)"
         ],
