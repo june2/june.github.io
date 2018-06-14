@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { animateScroll as scroll } from 'react-scroll'
 import { Container } from 'reactstrap';
-import queryString from 'query-string';
 import Profile from './components/Profile';
 import Experience from './components/Experience';
 import Project from './components/Project';
@@ -14,7 +13,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.scrollToTop = this.scrollToTop.bind(this);
-    this.lang = queryString.parse(window.location.search).lang || 'en';
+    this.lang = window.location.search.includes('ko') ? 'ko' : 'en';  
     this.resume = resume[this.lang];
   }
 
@@ -27,11 +26,11 @@ class App extends Component {
       <Container>
         <Profile profile={this.resume.profile} />
         <Skill />
-        <Experience experience={this.resume.experience} />
+        <Experience experience={this.resume.experience} lang={this.lang}/>
         <Project project={this.resume.project} />
         <Study study={this.resume.study} />
         {/* <Education /> */}
-        <a onClick={this.scrollToTop}>To the top!</a>
+        {/* <a onClick={this.scrollToTop}>To the top!</a> */}
       </Container>
     );
   }
