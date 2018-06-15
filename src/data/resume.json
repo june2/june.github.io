@@ -499,7 +499,9 @@
           "Building development environment.",
           "Studying text classification algorithms."        
         ],
-        "skill": {          
+        "skill": {  
+          "backend": [],
+          "frontend": [],        
           "etc": ["tensorflow", "tensorboard", "python"]
         }
       },    
