@@ -235,10 +235,10 @@
           "Tensor flow 개발환경 구축",
           "Tensor flow 기반 텍스트 문장 카테고리 분류 알고리즘 스터디"        
         ],
-        "skill": {
-          "backend": ["Node.js"],
-          "frontend": ["Angular.js"],
-          "etc": ["Azure", "cloud flare"]
+        "skill": {  
+          "backend": [],
+          "frontend": [],        
+          "etc": ["tensorflow", "tensorboard", "python"]
         }
       },    
       {
