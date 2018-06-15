@@ -337,7 +337,7 @@
       {
         "key": "whyme",
         "date": "",
-        "name": "whyme",
+        "name": "Whyme",
         "desc": "Building seeking job website using machine learning.",
         "link": "http://whyme.co.kr",
         "note": [        
@@ -499,10 +499,8 @@
           "Building development environment.",
           "Studying text classification algorithms."        
         ],
-        "skill": {
-          "backend": ["Node.js"],
-          "frontend": ["Angular.js"],
-          "etc": ["Azure", "cloud flare"]
+        "skill": {          
+          "etc": ["tensorflow", "tensorboard", "python"]
         }
       },    
       {
