@@ -31,8 +31,8 @@ class App extends Component {
         <Col className="text-right">
           {/* <a href="?lang=en" style={this.lang === "en" ? { "color" : "blue" } : {}}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
           <a href="?lang=ko" style={this.lang === "ko" ? { "color": "blue" } : {}}>Korean</a> */}
-          <a href="#" onClick={() => this.setState({ lang: 'en', resume: resume['en'] })} style={this.state.lang === "en" ? { "color": "blue" } : {}}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
-          <a href="#" onClick={() => this.setState({ lang: 'ko', resume: resume['ko'] })} style={this.state.lang === "ko" ? { "color": "blue" } : {}}>Korean</a>
+          <a href={null} onClick={() => this.setState({ lang: 'en', resume: resume['en'] })} style={this.state.lang === "en" ? { "color": "blue" } : {}}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a href={null} onClick={() => this.setState({ lang: 'ko', resume: resume['ko'] })} style={this.state.lang === "ko" ? { "color": "blue" } : {}}>Korean</a>
         </Col>
         <Profile profile={this.state.resume.profile} />
         <Skill />

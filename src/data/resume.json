@@ -1,10 +1,10 @@
 {
-  "ko":{
+  "ko": {
     "profile": {
-      "name":"김준영",
-      "email":"kimjy4536@hotmail.com",
-      "git":"https://github.com/june2",
-      "linkedin":"https://www.linkedin.com/in/june4536"
+      "name": "김준영",
+      "email": "kimjy4536@hotmail.com",
+      "git": "https://github.com/june2",
+      "linkedin": "https://www.linkedin.com/in/june4536"
     },
     "experience": [
       {
@@ -18,10 +18,26 @@
           "시스템 구축 및 개발 산출물 전달"
         ],
         "projects": [
-          {"desc":"Askstory 머신러닝 기반 구인구직 플랫폼 구축", "key":"whyme"},
-          {"desc":"T-money 시와버스예매 플랫폼 유지보수", "key":"tmoney"},
-          {"desc":"APT-lab 아파트 관리비 비교 플랫폼 구축", "key":"0"},
-          {"desc":"스타트업 위클리 플랫폼 구축", "key":"weekly"}        
+          {
+            "desc": "Versuson e-sports 플랫폼 구축",
+            "key": "versuson"
+          },
+          {
+            "desc": "Askstory 머신러닝 기반 구인구직 플랫폼 구축",
+            "key": "whyme"
+          },
+          {
+            "desc": "T-money 시와버스예매 플랫폼 유지보수",
+            "key": "tmoney"
+          },
+          {
+            "desc": "APT-lab 아파트 관리비 비교 플랫폼 구축",
+            "key": "0"
+          },
+          {
+            "desc": "스타트업 위클리 플랫폼 구축",
+            "key": "weekly"
+          }
         ]
       },
       {
@@ -34,8 +50,14 @@
           "유지보수 및 시스템 장애 대응"
         ],
         "projects": [
-          {"desc":"문화 정보 제공 서비스앱 개발", "key":"0"},
-          {"desc":"Youtube 연동 음원 스트리밍 서비스앱 개발", "key":"mmc"}        
+          {
+            "desc": "문화 정보 제공 서비스앱 개발",
+            "key": "0"
+          },
+          {
+            "desc": "Youtube 연동 음원 스트리밍 서비스앱 개발",
+            "key": "mmc"
+          }
         ]
       },
       {
@@ -48,9 +70,18 @@
           "유지보수 및 시스템 장애 대응"
         ],
         "projects": [
-          {"desc":"인하대 출석 모듈 구축", "key":"blackboard"},
-          {"desc":"고려대 beacon기반 출석모듈 구축", "key":"0"},
-          {"desc":"카톨릭대 설문/통계 모듈 구축", "key":"0"}        
+          {
+            "desc": "인하대 출석 모듈 구축",
+            "key": "blackboard"
+          },
+          {
+            "desc": "고려대 beacon기반 출석모듈 구축",
+            "key": "0"
+          },
+          {
+            "desc": "카톨릭대 설문/통계 모듈 구축",
+            "key": "0"
+          }
         ]
       },
       {
@@ -63,35 +94,100 @@
           "유지보수 및 시스템 장애 대응"
         ],
         "projects": [
-          {"desc":"서울 시립대 프레임워크 이관 및 유지보수", "key":"uos"},
-          {"desc":"법사랑 사이버랜드 플랫폼 구축", "key":"law"},
-          {"desc":"선거관리위원회 플랫폼 구축", "key":"0"}
+          {
+            "desc": "서울 시립대 프레임워크 이관 및 유지보수",
+            "key": "uos"
+          },
+          {
+            "desc": "법사랑 사이버랜드 플랫폼 구축",
+            "key": "law"
+          },
+          {
+            "desc": "선거관리위원회 플랫폼 구축",
+            "key": "0"
+          }
         ]
       }
     ],
     "project": [
+      {
+        "key": "versuson",
+        "date": "",
+        "name": "Versuson",
+        "desc": "e-sports 플랫폼",
+        "link": "http://versuson.gg",
+        "note": [
+          "Microservice architecture 설계 및 구축",
+          "Restful webservice 구축",
+          "API server 및 cms 플랫폼 구축",
+          "Mongodb cluster 구축"
+        ],
+        "skill": {
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "mysql",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "Vue.js",
+            "Angular.js",
+            "bootstrap",
+            "sass",
+            "webpack"
+          ],
+          "etc": [
+            "AWS",
+            "S3",
+            "SES",
+            "Lambda"
+          ]
+        }
+      },
       {
         "key": "whyme",
         "date": "",
         "name": "와이미",
         "desc": "머신러닝 기반 구인구직 매칭 서비스 플랫폼",
         "link": "http://whyme.co.kr",
-        "note": [        
+        "note": [
           "머신러닝 기반 구인구직 매칭 서비스 플랫폼 설계구축",
           "Restful API 설계 및 서버 구축",
-          "Angular기반, CMS / 사용자 페이지 제작",        
+          "Angular기반, CMS / 사용자 페이지 제작",
           "Socket.io 활용 채팅 서버 구축",
           "FCM 활용 클라이언트 메시지 push 구현",
           "꼬꼬마 한국어 형태소 분석기 라이브러리 활용, PDF 한글 텍스트 분석",
-          "Naive Bayesian classification 활용, 데이터 마이닝 알고리즘 구축"        
+          "Naive Bayesian classification 활용, 데이터 마이닝 알고리즘 구축"
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "socket.io", "redis", "mongodb", "mysql", "pm2", "nginx"],
-          "frontend": ["Angular.js", "typescript", "bootstrap", "sass", "webpack", "angular-cli"],
-          "etc": ["AWS", "S3", "cloud flare"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "socket.io",
+            "redis",
+            "mongodb",
+            "mysql",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "Angular.js",
+            "typescript",
+            "bootstrap",
+            "sass",
+            "webpack",
+            "angular-cli"
+          ],
+          "etc": [
+            "AWS",
+            "S3",
+            "cloud flare"
+          ]
         }
       },
-      { 
+      {
         "key": "tmoney",
         "date": "",
         "name": "T-money 시외버스",
@@ -99,16 +195,27 @@
         "link": "https://txbus.t-money.co.kr/main.do",
         "note": [
           "유지보수 및 장애대응",
-          "API 서버 연동",         
+          "API 서버 연동",
           "i18n 라이브러리 활용 다국어 지원 기능 구현"
         ],
         "skill": {
-          "backend": ["Java", "Spring", "maven", "ibatis"],
-          "frontend": ["Jsp", "jqurey"],
-          "etc": ["linux", "jenkins"]
+          "backend": [
+            "Java",
+            "Spring",
+            "maven",
+            "ibatis"
+          ],
+          "frontend": [
+            "Jsp",
+            "jqurey"
+          ],
+          "etc": [
+            "linux",
+            "jenkins"
+          ]
         }
       },
-      { 
+      {
         "key": "",
         "date": "weekly",
         "name": "스타트업 위클리",
@@ -116,16 +223,29 @@
         "link": "http://startupweekly.net/news",
         "note": [
           "스타트업 관련 정보 제공 서비스 플랫폼 제작",
-          "Restful API 설계 및 서버 구축", 
+          "Restful API 설계 및 서버 구축",
           "DB 모델링"
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
-          "frontend": ["Angular.js", "bootstrap", "gulp"],
-          "etc": ["Azure", "cloud flare"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "Angular.js",
+            "bootstrap",
+            "gulp"
+          ],
+          "etc": [
+            "Azure",
+            "cloud flare"
+          ]
         }
       },
-      { 
+      {
         "key": "mmc",
         "date": "",
         "name": "My Music Channel",
@@ -137,24 +257,43 @@
           "Restful API 설계 및 서버 구축"
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
-          "frontend": ["ionic framework", "cordova"],
-          "etc": ["testflight", "linux"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "ionic framework",
+            "cordova"
+          ],
+          "etc": [
+            "testflight",
+            "linux"
+          ]
         }
       },
-      { 
+      {
         "key": "blackboard",
         "date": "",
         "name": "블랙보드 출석 모듈",
         "desc": "",
         "link": "https://github.com/blackboard/spring-b2-example",
         "note": [
-          "JWT활용, 타사 LSM auth 인증 및 api 연동",        
-          "SSO 모듈 연동"        
+          "JWT활용, 타사 LSM auth 인증 및 api 연동",
+          "SSO 모듈 연동"
         ],
         "skill": {
-          "backend": ["Java", "Spring", "gradle", "JWT"],
-          "frontend": ["Jsp"],
+          "backend": [
+            "Java",
+            "Spring",
+            "gradle",
+            "JWT"
+          ],
+          "frontend": [
+            "Jsp"
+          ],
           "etc": []
         }
       },
@@ -162,16 +301,29 @@
         "key": "uos",
         "date": "",
         "name": "서울시립대학교",
-        "link": "http://www.uos.ac.kr/main.do",      
+        "link": "http://www.uos.ac.kr/main.do",
         "desc": "홈페이지 프레임워크 교체 및 유지보수",
         "note": [
           "플랫폼 유지보수 및 서비스 장애 대응",
           "struct2 => spring, oracle => tibero 프레임워크/DB 이관 작업"
         ],
         "skill": {
-          "backend": ["Java", "Struts2", "Spring","Tibero", "Apache", "Tomcat"],
-          "frontend": ["Jsp", "Jquery"],
-          "etc": ["Window Server", "svn"]
+          "backend": [
+            "Java",
+            "Struts2",
+            "Spring",
+            "Tibero",
+            "Apache",
+            "Tomcat"
+          ],
+          "frontend": [
+            "Jsp",
+            "Jquery"
+          ],
+          "etc": [
+            "Window Server",
+            "svn"
+          ]
         }
       },
       {
@@ -187,9 +339,21 @@
           "Youtube 동영상 조회 통계 UI화면 개발"
         ],
         "skill": {
-          "backend": ["Java", "Spring", "Tomcat", "Apache", "Mysql"],
-          "frontend": ["Jsp", "Jquery"],
-          "etc": ["Linux", "svn"]
+          "backend": [
+            "Java",
+            "Spring",
+            "Tomcat",
+            "Apache",
+            "Mysql"
+          ],
+          "frontend": [
+            "Jsp",
+            "Jquery"
+          ],
+          "etc": [
+            "Linux",
+            "svn"
+          ]
         }
       }
     ],
@@ -204,10 +368,22 @@
           "이더리움 private network 구축",
           "이더리움 Dapp tutorial / Toy project 제작"
         ],
-        "skill": {    
+        "skill": {
           "backend": [],
-          "frontend": [],    
-          "etc": ["AWS", "BTC", "ETH", "Dapp", "geth", "Puppeth", "web3.js", "ganache", "testrpc", "remix", "solidiy"]
+          "frontend": [],
+          "etc": [
+            "AWS",
+            "BTC",
+            "ETH",
+            "Dapp",
+            "geth",
+            "Puppeth",
+            "web3.js",
+            "ganache",
+            "testrpc",
+            "remix",
+            "solidiy"
+          ]
         }
       },
       {
@@ -221,11 +397,27 @@
           "Poloniex API 활용 캔들 데이터 실시간 반영"
         ],
         "skill": {
-          "backend": ["Node.js", "Koa", "redis", "mongodb", "websocket"],
-          "frontend": ["React.js", "ARc", "E-chart"],
-          "etc": ["AWS", "ELB", "S3", "cloud front", "Poloniex API"]
+          "backend": [
+            "Node.js",
+            "Koa",
+            "redis",
+            "mongodb",
+            "websocket"
+          ],
+          "frontend": [
+            "React.js",
+            "ARc",
+            "E-chart"
+          ],
+          "etc": [
+            "AWS",
+            "ELB",
+            "S3",
+            "cloud front",
+            "Poloniex API"
+          ]
         }
-      }, 
+      },
       {
         "date": "",
         "name": "Tensor flow",
@@ -233,39 +425,56 @@
         "desc": "Tensor flow 기반 텍스트 문장 카테고리 분류",
         "note": [
           "Tensor flow 개발환경 구축",
-          "Tensor flow 기반 텍스트 문장 카테고리 분류 알고리즘 스터디"        
+          "Tensor flow 기반 텍스트 문장 카테고리 분류 알고리즘 스터디"
         ],
-        "skill": {  
+        "skill": {
           "backend": [],
-          "frontend": [],        
-          "etc": ["tensorflow", "tensorboard", "python"]
+          "frontend": [],
+          "etc": [
+            "tensorflow",
+            "tensorboard",
+            "python"
+          ]
         }
-      },    
+      },
       {
         "date": "",
         "name": "알고뽑자",
         "link": "http://www.hani.co.kr/arti/politics/polibar/788334.html",
         "desc": "",
         "note": [
-          "19대 대선 후보자 공약 정리/요약 제공 플랫폼",        
+          "19대 대선 후보자 공약 정리/요약 제공 플랫폼",
           "여러 SNS 및 언론 보도",
           "사용자 가독성 고려한 기획 및 UI/UX 화면 제작",
           "페이스북, 구글, 네이버, 카카오 로그인 인증 구현"
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "redis", "mongodb", "nginx", "pm2"],
-          "frontend": ["Angular.js", "GA"],
-          "etc": ["Azure", "cloud flare"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "redis",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "Angular.js",
+            "GA"
+          ],
+          "etc": [
+            "Azure",
+            "cloud flare"
+          ]
         }
       }
     ]
   },
-  "en":{
+  "en": {
     "profile": {
-      "name":"June",
-      "email":"kimjy4536@hotmail.com",
-      "git":"https://github.com/june2",
-      "linkedin":"https://www.linkedin.com/in/june4536"
+      "name": "June",
+      "email": "kimjy4536@hotmail.com",
+      "git": "https://github.com/june2",
+      "linkedin": "https://www.linkedin.com/in/june4536"
     },
     "experience": [
       {
@@ -276,14 +485,30 @@
         "duty": [
           "Understanding the domain knowledge.",
           "Gathering the requirements from the client.",
-          "Analyzing, designing, writing technical reports/documenting.",          
+          "Analyzing, designing, writing technical reports/documenting.",
           "Building infra system and delivery products."
         ],
         "projects": [
-          {"desc":"Building seeking job website using machine learning.", "key":"whyme"},
-          {"desc":"Managing T-money bus web platform.", "key":"tmoney"},
-          {"desc":"Building APT-lab web platform.", "key":"0"},
-          {"desc":"Building startup weekly web platform.", "key":"weekly"}        
+          {
+            "desc": "Building Versuson e-sports web platform.",
+            "key": "versuson"
+          },
+          {
+            "desc": "Building seeking job website using machine learning.",
+            "key": "whyme"
+          },
+          {
+            "desc": "Managing T-money bus web platform.",
+            "key": "tmoney"
+          },
+          {
+            "desc": "Building APT-lab web platform.",
+            "key": "0"
+          },
+          {
+            "desc": "Building startup weekly web platform.",
+            "key": "weekly"
+          }
         ]
       },
       {
@@ -297,8 +522,14 @@
           "Managing system and solve troubleshooting problem."
         ],
         "projects": [
-          {"desc":"Information of indie culture service app", "key":"0"},
-          {"desc":"Youtube music streaming service app", "key":"mmc"}        
+          {
+            "desc": "Information of indie culture service app",
+            "key": "0"
+          },
+          {
+            "desc": "Youtube music streaming service app",
+            "key": "mmc"
+          }
         ]
       },
       {
@@ -312,9 +543,18 @@
           "Build and release of developed modules."
         ],
         "projects": [
-          {"desc":"Implementation online attendance module.", "key":"blackboard"},
-          {"desc":"Create online attendance module.", "key":"0"},
-          {"desc":"ImpImplementation survey/statistics moudle.", "key":"0"}        
+          {
+            "desc": "Implementation online attendance module.",
+            "key": "blackboard"
+          },
+          {
+            "desc": "Create online attendance module.",
+            "key": "0"
+          },
+          {
+            "desc": "ImpImplementation survey/statistics moudle.",
+            "key": "0"
+          }
         ]
       },
       {
@@ -327,35 +567,101 @@
           "Managing system and solve troubleshooting problem."
         ],
         "projects": [
-          {"desc":"Managing university of seoul website.", "key":"uos"},
-          {"desc":"Building korea ministry of justice website.", "key":"law"},
-          {"desc":"Building cyber election museum website.", "key":"0"}
+          {
+            "desc": "Managing university of seoul website.",
+            "key": "uos"
+          },
+          {
+            "desc": "Building korea ministry of justice website.",
+            "key": "law"
+          },
+          {
+            "desc": "Building cyber election museum website.",
+            "key": "0"
+          }
         ]
       }
     ],
     "project": [
+      {
+        "key": "versuson",
+        "date": "",
+        "name": "Versuson",
+        "desc": "e-sports platform",
+        "link": "http://versuson.gg",
+        "note": [
+          "Designing microservice architecture.",
+          "Implementing restful webservice.",
+          "Building API server and CMS platform.",
+          "Building mongoldb cluster for data replication."
+        ],
+        "skill": {
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "mysql",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "Vue.js",
+            "Angular.js",
+            "bootstrap",
+            "sass",
+            "webpack"
+          ],
+          "etc": [
+            "AWS",
+            "S3",
+            "SES",
+            "Lambda"
+          ]
+        }
+      },
       {
         "key": "whyme",
         "date": "",
         "name": "Whyme",
         "desc": "Building seeking job website using machine learning.",
         "link": "http://whyme.co.kr",
-        "note": [        
+        "note": [
           "Building seeking job website using machine learning.",
           "Implementing restful webservices.",
-          "Building SPA using Angular.",        
+          "Building SPA using Angular.",
           "Building chat server using Socket.io.",
           "Implementing message push module using FCM.",
           "Analizing korean text file for data mining.",
-          "Building data mining algorithms using Naive Bayesian classification."        
+          "Building data mining algorithms using Naive Bayesian classification."
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "socket.io", "redis", "mongodb", "mysql", "pm2", "nginx"],
-          "frontend": ["Angular.js", "typescript", "bootstrap", "sass", "webpack", "angular-cli"],
-          "etc": ["AWS", "S3", "cloud flare", "FCM"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "socket.io",
+            "redis",
+            "mongodb",
+            "mysql",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "Angular.js",
+            "typescript",
+            "bootstrap",
+            "sass",
+            "webpack",
+            "angular-cli"
+          ],
+          "etc": [
+            "AWS",
+            "S3",
+            "cloud flare",
+            "FCM"
+          ]
         }
       },
-      { 
+      {
         "key": "tmoney",
         "date": "",
         "name": "T-money bus",
@@ -363,16 +669,27 @@
         "link": "https://txbus.t-money.co.kr/main.do",
         "note": [
           "Managing system and solve troubleshooting problem.",
-          "Implementing the payment API.",         
+          "Implementing the payment API.",
           "Implementing the i18n module."
         ],
         "skill": {
-          "backend": ["Java", "Spring", "maven", "ibatis"],
-          "frontend": ["Jsp", "jqurey"],
-          "etc": ["linux", "jenkins"]
+          "backend": [
+            "Java",
+            "Spring",
+            "maven",
+            "ibatis"
+          ],
+          "frontend": [
+            "Jsp",
+            "jqurey"
+          ],
+          "etc": [
+            "linux",
+            "jenkins"
+          ]
         }
       },
-      { 
+      {
         "key": "",
         "date": "weekly",
         "name": "Startup weekly",
@@ -380,16 +697,29 @@
         "link": "http://startupweekly.net/news",
         "note": [
           "Building startup new website.",
-          "Implementing restful webservices.", 
+          "Implementing restful webservices.",
           "Modeling database."
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
-          "frontend": ["Angular.js", "bootstrap", "gulp"],
-          "etc": ["Azure", "cloud flare"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "Angular.js",
+            "bootstrap",
+            "gulp"
+          ],
+          "etc": [
+            "Azure",
+            "cloud flare"
+          ]
         }
       },
-      { 
+      {
         "key": "mmc",
         "date": "",
         "name": "My Music Channel",
@@ -401,24 +731,43 @@
           "Implementing restful webservices."
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "mongodb", "nginx", "pm2"],
-          "frontend": ["ionic framework", "cordova"],
-          "etc": ["testflight", "linux"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "ionic framework",
+            "cordova"
+          ],
+          "etc": [
+            "testflight",
+            "linux"
+          ]
         }
       },
-      { 
+      {
         "key": "blackboard",
         "date": "",
         "name": "Online attendance",
         "desc": "",
         "link": "https://github.com/blackboard/spring-b2-example",
         "note": [
-          "Implementing the auth moudule using JWT.",        
-          "Implementing SSO moudle."        
+          "Implementing the auth moudule using JWT.",
+          "Implementing SSO moudle."
         ],
         "skill": {
-          "backend": ["Java", "Spring", "gradle", "JWT"],
-          "frontend": ["Jsp"],
+          "backend": [
+            "Java",
+            "Spring",
+            "gradle",
+            "JWT"
+          ],
+          "frontend": [
+            "Jsp"
+          ],
           "etc": []
         }
       },
@@ -426,16 +775,29 @@
         "key": "uos",
         "date": "",
         "name": "University of seoul",
-        "link": "http://www.uos.ac.kr/main.do",      
+        "link": "http://www.uos.ac.kr/main.do",
         "desc": "홈페이지 프레임워크 교체 및 유지보수",
         "note": [
           "Managing system and solve troubleshooting problem.",
           "Changing framework / database. (struct2 => spring, oracle => tibero)"
         ],
         "skill": {
-          "backend": ["Java", "Struts2", "Spring","Tibero", "Apache", "Tomcat"],
-          "frontend": ["Jsp", "Jquery"],
-          "etc": ["Window Server", "svn"]
+          "backend": [
+            "Java",
+            "Struts2",
+            "Spring",
+            "Tibero",
+            "Apache",
+            "Tomcat"
+          ],
+          "frontend": [
+            "Jsp",
+            "Jquery"
+          ],
+          "etc": [
+            "Window Server",
+            "svn"
+          ]
         }
       },
       {
@@ -451,9 +813,21 @@
           "Developing statistics of Youtube view count page."
         ],
         "skill": {
-          "backend": ["Java", "Spring", "Tomcat", "Apache", "Mysql"],
-          "frontend": ["Jsp", "Jquery"],
-          "etc": ["Linux", "svn"]
+          "backend": [
+            "Java",
+            "Spring",
+            "Tomcat",
+            "Apache",
+            "Mysql"
+          ],
+          "frontend": [
+            "Jsp",
+            "Jquery"
+          ],
+          "etc": [
+            "Linux",
+            "svn"
+          ]
         }
       }
     ],
@@ -468,10 +842,22 @@
           "Building ethereum private network.",
           "Developing ethereum Dapp tutorial / Toy project."
         ],
-        "skill": {    
+        "skill": {
           "backend": [],
-          "frontend": [],    
-          "etc": ["AWS", "BTC", "ETH", "Dapp", "geth", "Puppeth", "web3.js", "ganache", "testrpc", "remix", "solidiy"]
+          "frontend": [],
+          "etc": [
+            "AWS",
+            "BTC",
+            "ETH",
+            "Dapp",
+            "geth",
+            "Puppeth",
+            "web3.js",
+            "ganache",
+            "testrpc",
+            "remix",
+            "solidiy"
+          ]
         }
       },
       {
@@ -485,11 +871,27 @@
           "Mirroring candel data in realtime using Poloniex API."
         ],
         "skill": {
-          "backend": ["Node.js", "Koa", "redis", "mongodb", "websocket"],
-          "frontend": ["React.js", "ARc", "E-chart"],
-          "etc": ["AWS", "ELB", "S3", "cloud front", "Poloniex API"]
+          "backend": [
+            "Node.js",
+            "Koa",
+            "redis",
+            "mongodb",
+            "websocket"
+          ],
+          "frontend": [
+            "React.js",
+            "ARc",
+            "E-chart"
+          ],
+          "etc": [
+            "AWS",
+            "ELB",
+            "S3",
+            "cloud front",
+            "Poloniex API"
+          ]
         }
-      }, 
+      },
       {
         "date": "",
         "name": "Tensor flow",
@@ -497,28 +899,45 @@
         "desc": "Tensor flow 기반 텍스트 문장 카테고리 분류",
         "note": [
           "Building development environment.",
-          "Studying text classification algorithms."        
+          "Studying text classification algorithms."
         ],
-        "skill": {  
+        "skill": {
           "backend": [],
-          "frontend": [],        
-          "etc": ["tensorflow", "tensorboard", "python"]
+          "frontend": [],
+          "etc": [
+            "tensorflow",
+            "tensorboard",
+            "python"
+          ]
         }
-      },    
+      },
       {
         "date": "",
         "name": "Algovote",
         "link": "http://www.hani.co.kr/arti/politics/polibar/788334.html",
         "desc": "",
         "note": [
-          "19th korea presidential election website.",                  
+          "19th korea presidential election website.",
           "Planning website and designing UI/UX.",
-          "Implementing the oauth module. (facebook, google, kakao, naver)"          
+          "Implementing the oauth module. (facebook, google, kakao, naver)"
         ],
         "skill": {
-          "backend": ["Node.js", "loopback.js", "redis", "mongodb", "nginx", "pm2"],
-          "frontend": ["Angular.js", "GA"],
-          "etc": ["Azure", "cloud flare"]
+          "backend": [
+            "Node.js",
+            "loopback.js",
+            "redis",
+            "mongodb",
+            "nginx",
+            "pm2"
+          ],
+          "frontend": [
+            "Angular.js",
+            "GA"
+          ],
+          "etc": [
+            "Azure",
+            "cloud flare"
+          ]
         }
       }
     ]
