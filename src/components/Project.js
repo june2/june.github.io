@@ -12,7 +12,7 @@ class Project extends Component {
             <Row key={i} className="mb-4">
               <Col className="col-md-3 col-12 text-md-right">
                 <Row>
-                  <Col className="col-md-12">                    
+                  <Col className="col-md-12">
                     <Element name={data.key}></Element>
                     <h4>
                       <a href={data.link} target="_blank">

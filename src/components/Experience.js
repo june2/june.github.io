@@ -3,7 +3,7 @@ import { Row, Col } from 'reactstrap';
 import { Link } from 'react-scroll'
 
 class Experience extends Component {
-  render() {    
+  render() {
     return (
       <div>
         <div className="hr-sect">Work Experience</div>
@@ -27,14 +27,14 @@ class Experience extends Component {
                   {data.duty.map((duty, i) => {
                     return (<li key={i}>{duty}</li>)
                   })}
-                  <li><strong>{this.props.lang === "ko" ? "참여 프로젝트" : "Projects" }</strong></li>
+                  <li><strong>{this.props.lang === "ko" ? "참여 프로젝트" : "Projects"}</strong></li>
                   <div>
                     <ul>
                       {data.projects.map((project, i) => {
                         return (<li key={i}>
                           {project.desc}&nbsp;&nbsp;
                           <Link activeClass="active"
-                            style={project.key !== "0" ? {} : { display: 'none' }}
+                            style={project.key !== "0" ? { cursor: 'pointer' } : { display: 'none', cursor: 'pointer' }}
                             className="fa fa-link"
                             to={project.key}
                             spy={true} smooth={true} duration={500} ></Link>

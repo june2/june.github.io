@@ -31,8 +31,8 @@ class App extends Component {
         <Col className="text-right">
           {/* <a href="?lang=en" style={this.lang === "en" ? { "color" : "blue" } : {}}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
           <a href="?lang=ko" style={this.lang === "ko" ? { "color": "blue" } : {}}>Korean</a> */}
-          <a href={null} onClick={() => this.setState({ lang: 'en', resume: resume['en'] })} style={this.state.lang === "en" ? { "color": "blue" } : {}}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
-          <a href={null} onClick={() => this.setState({ lang: 'ko', resume: resume['ko'] })} style={this.state.lang === "ko" ? { "color": "blue" } : {}}>Korean</a>
+          <a href={null} onClick={() => this.setState({ lang: 'en', resume: resume['en'] })} style={this.state.lang === 'en' ? { color: 'blue', cursor: 'pointer' } : { cursor: 'pointer' }}>English</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+          <a href={null} onClick={() => this.setState({ lang: 'ko', resume: resume['ko'] })} style={this.state.lang === 'ko' ? { color: 'blue', cursor: 'pointer' } : { cursor: 'pointer' }}>Korean</a>
         </Col>
         <Profile profile={this.state.resume.profile} />
         <Skill />
@@ -41,7 +41,7 @@ class App extends Component {
         <Study study={this.state.resume.study} />
         {/* <Education /> */}
         {/* <a onClick={this.scrollToTop}>To the top!</a> */}
-      </Container>
+      </Container >
     );
   }
 }
