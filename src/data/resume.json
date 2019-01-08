@@ -19,6 +19,10 @@
         ],
         "projects": [
           {
+            "desc": "Arbitrage trading bot 개발",
+            "key": "arbitrage"
+          },
+          {
             "desc": "Versuson e-sports 플랫폼 구축",
             "key": "versuson"
           },
@@ -109,13 +113,47 @@
         ]
       }
     ],
-    "project": [
+    "project": [      
+      {
+        "key": "arbitrage",
+        "date": "",
+        "name": "Arbitrage trading bot",
+        "desc": "마진 거래 봇",
+        "link": "https://github.com/june2/arbitrage-trading-bot",
+        "note": [
+          "거래소 호가 데이터 크롤링",
+          "거래소간 마진 괴리율 계산 알고리즘 구현",
+          "거래소 자동 주문 기능 구현"
+        ],
+        "skill": {
+          "backend": [
+            "Node.js",
+            "Java",
+            "Python",
+            "websocket",
+            "postgresql",
+            "sqlite",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "React.js",
+            "Electron",
+            "bootstrap",
+            "sass",
+            "webpack"
+          ],
+          "etc": [
+            "AWS"            
+          ]
+        }
+      },
       {
         "key": "versuson",
         "date": "",
-        "name": "Versuson",
+        "name": "Lvup",
         "desc": "e-sports 플랫폼",
-        "link": "http://versuson.gg",
+        "link": "https://lvup.gg",
         "note": [
           "Microservice architecture 설계 및 구축",
           "Restful webservice 구축",
@@ -584,11 +622,45 @@
     ],
     "project": [
       {
+        "key": "arbitrage",
+        "date": "",
+        "name": "Arbitrage trading bot",
+        "desc": "Arbitrage trading bot",
+        "link": "https://github.com/june2/arbitrage-trading-bot",
+        "note": [
+          "Collecting orderbook data from each exchange market.",
+          "Calculating margin percentage between two exchange market.",
+          "Implementing automatic ordering function."
+        ],
+        "skill": {
+          "backend": [
+            "Node.js",
+            "Java",
+            "Python",
+            "websocket",
+            "postgresql",
+            "sqlite",
+            "pm2",
+            "nginx"
+          ],
+          "frontend": [
+            "React.js",
+            "Electron",
+            "bootstrap",
+            "sass",
+            "webpack"
+          ],
+          "etc": [
+            "AWS"            
+          ]
+        }
+      },
+      {
         "key": "versuson",
         "date": "",
-        "name": "Versuson",
+        "name": "Lvup",
         "desc": "e-sports platform",
-        "link": "http://versuson.gg",
+        "link": "https://lvup.gg",
         "note": [
           "Designing microservice architecture.",
           "Implementing restful webservice.",
